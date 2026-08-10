@@ -1,0 +1,86 @@
+.agent-list-page {
+  min-height: 100vh;
+  padding: 48px;
+  background-color: #f5f6f8;
+}
+
+.agent-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto 32px;
+}
+
+.agent-list-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.agent-list-actions button {
+  padding: 10px 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.agent-list-header h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+}
+
+.agent-list-header p {
+  margin: 0;
+  color: #666;
+}
+
+.agent-card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.agent-card {
+  padding: 24px;
+  background-color: #fff;
+  border: 1px solid #e3e5e8;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.agent-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.agent-type {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.agent-workspace {
+  padding: 4px 10px;
+  font-size: 12px;
+  background-color: #eef0f3;
+  border-radius: 999px;
+}
+
+.agent-task {
+  min-height: 72px;
+  margin: 0 0 24px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.agent-card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+  font-size: 13px;
+  color: #777;
+}

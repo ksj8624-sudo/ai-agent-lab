@@ -1,0 +1,61 @@
+.plan-page {
+  min-height: 100vh;
+  padding: 48px;
+  background-color: #f5f6f8;
+}
+
+.plan-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 640px;
+  margin: 0 auto 32px;
+}
+
+.plan-header h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+}
+
+.plan-header p {
+  margin: 0;
+  color: #666;
+}
+
+.plan-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px;
+  background-color: #fff;
+  border: 1px solid #e3e5e8;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.05);
+}
+
+.plan-textarea {
+  min-height: 160px;
+  padding: 12px;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.6;
+  resize: vertical;
+}
+
+.plan-form button {
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.plan-form button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.plan-page > .agent-request-status {
+  max-width: 640px;
+  margin: 24px auto 0;
+}
